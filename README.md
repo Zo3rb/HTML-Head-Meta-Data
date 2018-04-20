@@ -47,6 +47,10 @@ Allow adding website to home screen as shortcut
 ## Open Graph Protocol 
 http://ogp.me
 
+Most content is shared to Facebook as a URL, so it's important that you mark up your website with Open Graph tags to take control over how your content appears on Facebook.
+
+Without these tags, the Facebook Crawler uses internal heuristics to make a best guess about the title, description, and preview image for your content. Designate this info explicitly with Open Graph tags to ensure the highest quality posts on Facebook.
+
 The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.
 ```
 <meta property="fb:app_id" content="123456789">
@@ -61,7 +65,10 @@ The Open Graph protocol enables any web page to become a rich object in a social
 ```
 
 ## Optimizing with Twitter Cards 
+
 https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started
+
+With Twitter Cards, you can attach rich photos, videos and media experiences to Tweets, helping to drive traffic to your website. Simply add a few lines of markup to your webpage, and users who Tweet links to your content will have a “Card” added to the Tweet that’s visible to their followers.
 
 ```
 <meta name="twitter:card" content="summary">

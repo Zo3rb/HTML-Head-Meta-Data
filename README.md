@@ -79,3 +79,37 @@ With Twitter Cards, you can attach rich photos, videos and media experiences to 
 <meta name="twitter:description" content="Content description less than 200 characters">
 <meta name="twitter:image" content="http://example.com/image.jpg">
 ```
+
+## Apple/iOS 
+
+https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html
+
+Sets whether a web application runs in full-screen mode
+
+```
+<meta name="apple-mobile-web-app-capable" content="yes">
+```
+
+On iOS, similar to native applications, you can specify a launch screen image that is displayed while your web application launches. This is especially useful when your web application is offline. By default, a screenshot of the web application the last time it was launched is used. To set another startup image, add a link element to the webpage, as in:
+
+
+
+```
+<link rel="apple-touch-startup-image" href="/launch.png">
+```
+
+On iOS, you can specify a web application title for the launch icon. By default, the <title> tag is used. To set a different title, add a meta tag to the webpage, as in:
+
+```
+<meta name="apple-mobile-web-app-title" content="AppTitle">
+```
+
+Enable standalone (full-screen) mode
+```
+<meta name="apple-mobile-web-app-capable" content="yes">
+```
+
+Status bar appearance (has no effect unless standalone mode is enabled) 
+```
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+```

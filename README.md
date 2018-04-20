@@ -31,13 +31,6 @@ Short description of the document (ususally limit to 150 characters)
 <meta name="description" content="A description of the page">
 ```
 
-
-Theme Color for Chrome, Firefox OS and Opera (Android)
-```
-<meta name="theme-color" content="#4285f4">
-```
-
-
 Allow adding website to home screen as shortcut
 ```
 <meta name="mobile-web-app-capable" content="yes">
@@ -92,8 +85,6 @@ Sets whether a web application runs in full-screen mode
 
 On iOS, similar to native applications, you can specify a launch screen image that is displayed while your web application launches. This is especially useful when your web application is offline. By default, a screenshot of the web application the last time it was launched is used. To set another startup image, add a link element to the webpage, as in:
 
-
-
 ```
 <link rel="apple-touch-startup-image" href="/launch.png">
 ```
@@ -112,4 +103,18 @@ Enable standalone (full-screen) mode
 Status bar appearance (has no effect unless standalone mode is enabled) 
 ```
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
+```
+
+
+## Android
+
+Android Chrome, FireFox and Opera theme color
+
+```
+<meta name="theme-color" content="#E64545">
+```
+
+Allow app shortcut on Home Screen
+```
+<meta name="mobile-web-app-capable" content="yes">
 ```

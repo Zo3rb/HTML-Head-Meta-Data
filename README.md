@@ -131,3 +131,31 @@ If you want to disable the translation prompt in Chrome or block Google Translat
 ```
 <meta name="google" value="notranslate">
 ```
+
+
+
+## Modern HTML5 Head Boilerplate 
+```
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>The HTML5 Herald</title>
+  
+  <meta name="description" content="The HTML5 Head Boilerplate template">
+  <meta name="author" content="John Uberbacher">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/style3.css">
+  
+  <meta name="theme-color" content="#0065a5">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  
+</head>
+```

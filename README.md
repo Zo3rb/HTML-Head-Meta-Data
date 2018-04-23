@@ -25,7 +25,7 @@ Disables Pinch & Zoom on Mobile Devices
 ```
 
 
-Short description of the document (ususally limit to 150 characters)
+The description of the document (ususally limit to 150 characters). The description meta tag provides a short description of the page. In some situations this description is used as a part of the snippet shown in the search results.
 ```
 <meta name="description" content="A description of the page">
 ```
@@ -106,8 +106,7 @@ If you want to disable the automatic detection and formatting of possible phone 
 
 ## Android
 
-Android Chrome, FireFox and Opera theme color
-
+Android Chrome, FireFox and Opera theme color. Currently, the theme-color meta extension is supported by Chrome 39+ for Android Lollipop. The content attribute extension can take any valid CSS color.
 ```
 <meta name="theme-color" content="#E64545">
 ```
@@ -119,11 +118,11 @@ Allow app shortcut on Home Screen
 
 
 ## Microsoft Internet Explorer
-
-Force Internet Explorer 8, 9 & 10 to use the latest Microsoft rendering engine (compatability)
+Internet Explorer 8/9/10 support document compatibility modes that affect the way webpages are interpreted and displayed. Because of this, even if your site's visitor is using, let's say, Internet Explorer 9, it's possible that IE will not use the latest rendering engine, and instead, decide to render your page using the Internet Explorer 5.5 rendering engine.
 ```
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 ```
+This will force Internet Explorer 8/9/10 to render the webpage in the highest available mode in the various cases when it may not, and therefore, ensure that anyone browsing your site is treated to the best possible user experience that browser can offer.
 
 
 ## Miscellaneous

@@ -19,10 +19,9 @@ The initial-scale=1.0 part sets the initial zoom level when the page is first lo
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-
-Force IE 8/9/10 to use its latest rendering engine (compatability)
+Disables Pinch & Zoom on Mobile Devices
 ```
-<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 ```
 
 
@@ -117,4 +116,12 @@ Android Chrome, FireFox and Opera theme color
 Allow app shortcut on Home Screen
 ```
 <meta name="mobile-web-app-capable" content="yes">
+```
+
+
+## Microsoft Internet Explorer
+
+Force Internet Explorer 8, 9 & 10 to use the latest Microsoft rendering engine (compatability)
+```
+<meta http-equiv="x-ua-compatible" content="ie=edge">
 ```

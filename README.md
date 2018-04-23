@@ -30,12 +30,6 @@ Short description of the document (ususally limit to 150 characters)
 <meta name="description" content="A description of the page">
 ```
 
-Allow adding website to home screen as shortcut
-```
-<meta name="mobile-web-app-capable" content="yes">
-```
-
-
 ## Open Graph Protocol 
 http://ogp.me
 
@@ -104,6 +98,11 @@ Status bar appearance (has no effect unless standalone mode is enabled)
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 ```
 
+If you want to disable the automatic detection and formatting of possible phone numbers in Safari on iOS, use:
+```
+<meta name="format-detection" content="telephone=no">
+```
+
 
 ## Android
 
@@ -124,4 +123,12 @@ Allow app shortcut on Home Screen
 Force Internet Explorer 8, 9 & 10 to use the latest Microsoft rendering engine (compatability)
 ```
 <meta http-equiv="x-ua-compatible" content="ie=edge">
+```
+
+
+## Miscellaneous
+
+If you want to disable the translation prompt in Chrome or block Google Translate from translating your web page, use:
+```
+<meta name="google" value="notranslate">
 ```
